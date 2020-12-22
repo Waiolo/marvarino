@@ -39,14 +39,7 @@
       "mime": "^1.6.0",
       "pump": "^2.0.0",
       "request": "^2.83.0",
-      "request-promise": "^4.2.2",
-      "express": "^4.17.1",
-      "firebase": "^4.2.0",
-      "folktale": "^2.0.1",
-      "ramda": "^0.25.0",
-      "telegraf": "^3.6.5",
-
-
+      "request-promise": "^4.2.2"
     },
     "devDependencies": {
       "babel-cli": "^6.26.0",
