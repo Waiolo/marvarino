@@ -1,21 +1,32 @@
 {
-  "name": "vapor-bot",
-  "version": "1.0.0",
-  "description": "a inline bot to create vaporwave-like strings",
-  "node" : "12.x",
-  "npm" : "6.x",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "waiolos",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "firebase": "^4.2.0",
-    "folktale": "^2.0.1",
-    "ramda": "^0.25.0",
-    "telegraf": "^3.6.5"
+    "name": "Marvinobot",
+    "version": "1.0.0",
+    "description": "Telegram Bot API",
+    "main": "./index.js",
+    "directories": {
+      "example": "examples",
+      "test": "test"
+    },
+    "keywords": [
+      "telegram",
+      "telegram bot",
+      "telegram bot api",
+      "bot"
+    ],
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Waiolo",
+    "license": "MIT",
+    "engines": {
+      "node": ">=0.12"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "firebase": "^4.2.0",
+      "folktale": "^2.0.1",
+      "ramda": "^0.25.0",
+      "telegraf": "^3.6.5"
+    }
   }
-}
