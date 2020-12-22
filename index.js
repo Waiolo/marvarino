@@ -12,7 +12,7 @@ const apply_file_system_commands = require('./storage_cmd.js')
 const API_TOKEN = '1461740638:AAHmBSdrBsLNah6aa9W63SKDV0yWfwTcaYg'
 //const API_TOKEN = '352679604:AAElR92UVDYwXAseAlgh_V9Q7LbqteC8ieo'
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL || 'https://git.heroku.com/marvinclub.git';
+const URL = process.env.URL || 'https://git.heroku.com/marvarino.git';
 const bot = new Telegraf(API_TOKEN)
 
 bot.telegram.getMe().then((botInfo) => {
