@@ -1,6 +1,6 @@
 {
     "name": "Marvinobot",
-    "version": "0.51.0",
+    "version": "1.0.0",
     "description": "Telegram Bot API",
     "main": "./index.js",
     "directories": {
